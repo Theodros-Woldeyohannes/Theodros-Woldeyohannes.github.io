@@ -5,7 +5,7 @@
     float:none;
     margin:0 auto;
     display: block;
-    text-align: center;
+    text-align: left;
 }
 
 .navbar-nav > li {
@@ -39,9 +39,11 @@ body {
 
 .img {
   display: block;
-  width: 60%;
-  margin-left: auto;
-  margin-right: auto;
+  /* width: 60%; */
+  /* margin-left: auto;
+  margin-right: auto; */
+  max-width: 60%;
+  margin: auto;
 }
 
 /* headers */
@@ -64,9 +66,29 @@ body {
   text-align: center;
 }
 
+.h-research {
+  font-size: 75px;
+  text-align: center;
+}
+
+.h-research-2 {
+  font-size: 25px;
+  text-align: center;
+  max-width: 85%;
+  margin: auto;
+}
+
+.h-research-3 {
+  text-align: center; 
+}
+
 /* paragraphs */
 .p-norm {
   text-align: center;
+  max-width: 75%;
+  margin: auto;
+  font-size: 20px;
+  /* margin-bottom: 50px; */
 }
 
 .p-car {
@@ -76,12 +98,26 @@ body {
 .p-just {
   font-size: 20px;
   text-align: justify;
+  max-width: 75%;
+  margin: auto;
+  margin-bottom: 1%;
+}
+
+.p-main {
+  font-size: 20px;
+  text-align: center;
 }
 
 .p-scroll {
   font-size: 30px;
   color: black;
   text-align: center;
+}
+
+.p-research {
+  text-align: center;
+  font-size: 50px;
+  font-style: italic;
 }
 
 /* scroll sections */
